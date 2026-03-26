@@ -643,7 +643,7 @@ class RsMod extends Model {
           FieldStyleCode1: "",
           NetTotal: (rowTotal[1] + 0).toString(),
           StatusDescription: "POSTED",
-          TotalQty: (rowTotal[0] + 0).toString(),
+          TotalQty: (rowTotal[1] + 0).toString(),
           CreatedBy: "",
           Remarks: "",
           CustomerCode: "",
